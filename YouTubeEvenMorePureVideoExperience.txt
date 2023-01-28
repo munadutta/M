@@ -24,11 +24,6 @@ www.youtube.com##.ytp-button.ytp-miniplayer-button
 ! Removes the Livestream button in the left-hand menu
 www.youtube.com#?#ytd-guide-entry-renderer:has(a[href*=UC4R8DWoMoI7CAwX8_LjQHig])
 
-! Removes the Homepage button in the left-hand menu
-www.youtube.com#?#ytd-guide-entry-renderer:has(a[href="/"])
-www.youtube.com#?#ytd-mini-guide-entry-renderer:has(a[href="/"])
-m.youtube.com##.scbrr-tab[href="/"]
-m.youtube.com##ytm-pivot-bar-item-renderer:first-of-type
 
 ! Removes the video store button in the left-hand menu
 www.youtube.com#?#ytd-guide-entry-renderer:has(a[href*=UClgRkhTL3_hImCAmdLfDE4g])
@@ -72,8 +67,6 @@ youtube.com,youtube-nocookie.com##button[class*=share-button]
 youtube.com##.ytp-scroll-min
 youtube.com##.ytp-pause-overlay
 
-! Removes the frontpage link from the upper left YouTube logo (Not supported by ABP or AdBlock)
-youtube.com#?##logo:style(pointer-events: none !important; cursor: default !important)
 
 ! Removes video epilogue suggestion overlays
 youtube.com##.ytp-ce-element-show
