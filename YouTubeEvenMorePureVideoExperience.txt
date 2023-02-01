@@ -103,8 +103,6 @@ www.youtube.com##.ytd-rich-section-renderer
 ! The overlays that are visible when you hover over a video for «Watch later» and «Add to queue»
 www.youtube.com###hover-overlays
 
-! Removes comment teasers in the December 2021 revamp (The new comment box can still be loaded normally)
-www.youtube.com###teaser.ytd-comments-entry-point-header-renderer
 
 ! ————————————————————————————————————————————————————————————————
 
@@ -182,10 +180,7 @@ www.youtube.com#?#div.top-nav-tab:has-text(/^Gaming$/)
 
 ! Below are entries that I borrowed verbatim (except for adding extra domain coverage) from «YouTube: Pure Video Experience», which was maintained by monztA until 2017, and which is currently believed to have no known copyright statements or licences.
 
-! Removes comments on video pages
-||youtube.com/live_chat_fragments_ajax?$xmlhttprequest
-||youtube.com/comment_service_ajax?$domain=youtube.com|youtu.be|youtube-nocookie.com
-youtube.com###comments
+
 ! Removes all annotations in videos
 ||youtube.com/annotations_invideo?$object-subrequest
 ! HTML5 version
